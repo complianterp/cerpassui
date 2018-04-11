@@ -1,0 +1,18 @@
+ID: cerpassui
+_schema-version: '2.1'
+description: CERPASS UI components
+version: 0.0.1
+
+modules:
+ - name: ui
+   type: html5
+   path: ui
+   parameters:
+      disk-quota: 256M
+      memory: 256M
+   build-parameters:
+      builder: grunt
+
+ 
+
+ 
